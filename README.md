@@ -1,8 +1,8 @@
 # WorldNews
 
-A Django project scaffolded for displaying news, currently at the project skeleton stage.
+A Django project for displaying news organized by region. Currently at the skeleton stage.
 
-**Status:** Early — project and app created, no models or views implemented.
+**Status:** Early. Project and app scaffolded, nothing implemented yet.
 
 ---
 
@@ -15,7 +15,7 @@ A Django project scaffolded for displaying news, currently at the project skelet
 
 ## Structure
 
-- `usa/` — Django app scaffolded for US news (models and views empty)
+- `usa/` — Django app for US news (scaffolded, models and views empty)
 
 ---
 
@@ -33,6 +33,6 @@ python manage.py runserver
 ## Roadmap
 
 - Define news article models
-- Connect a news API (e.g., NewsAPI)
+- Connect a news API (NewsAPI is the target)
 - Build views and templates
 - Expand to other regions
